@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+<style>
         body{
             font-family: Arial, Helvetica, sans-serif;
             background-image: url(./image/background.jpg);
             background-position: center;
-            background-size: center;
-            background-repeat: no-repeat;
+            background-size: contain;
             display: flex;
             margin: 0;
             padding: 0;
@@ -87,37 +80,3 @@
             opacity: 1;
         }
     </style>
-
-
-</head>
-<body>
-<div class="container">
-    <div class="card" style="background-image: url(./image/aboutme.jpg);">
-        <h2 class="title">About Me</h2>
-        <div class="content">
-            <p>
-                I am a Frontend Web developer, a passionate Web3 explorer who enjoys writing, building, and educating others about blockchain. 
-            </p>
-        </div>
-    </div>
-
-    <div class="card" style="background-image: url(./image/experience.jpg);">
-        <h2 class="title">Experience</h2>
-        <div class="content">
-            <p>
-                I am well grounded in creating Web3 contents, managing communities, an contributing to ecosystem growth through strategy and creativity.
-            </p>
-        </div>
-    </div>
-
-    <div class="card" style="background-image: url(./image/contact.jpg);">
-        <h2 class="title">Contact Me</h2>
-        <div class="content">
-            <p>
-               Want to connect? <br> <br> Reach out via <a href="mailto:">email</a> or DM me on X (formally Twitter) <a href="https://lj.mk/easimike" target="_blank" rel="">@easimike</a>.
-            </p>
-        </div>
-    </div>
-</div>
-</body>
-</html>
